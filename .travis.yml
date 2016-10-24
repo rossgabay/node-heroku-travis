@@ -5,4 +5,4 @@ language: node_js
 env:
   - PORT=8989
 node_js:
-  - "5.1"
+  - "6"

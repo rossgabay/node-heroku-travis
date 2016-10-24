@@ -1,0 +1,9 @@
+before_script:  
+  - npm install; npm install -g gulp
+script: gulp test
+language: node.js
+env:
+  - PORT=8989
+
+node_js: 
+  - "6.7.0"
